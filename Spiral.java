@@ -33,7 +33,7 @@ public class Spiral {
                 counter++;
             }
             horizontal.max--;
-            for (int i = vertical.max; i >= horizontal.min; i--) {
+            for (int i = horizontal.max; i >= horizontal.min; i--) {
                 mtx[vertical.min][i] = counter;
                 counter++;
             }
